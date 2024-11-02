@@ -1,0 +1,25 @@
+{
+    "name": "FeiHai-SmartPosModule",
+    "id": "FeiHai-SmartPosModule",
+    "version": "1.1",
+    "description": "南通飞海收银机SDK插件,目前支持打印和钱箱",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "FeiHai-SmartPosModule",
+                    "class": "io.dcloud.uniplugin.FeiHaiSmartPosModule"
+                }
+            ],
+            "integrateType": "aar",
+            "abis": [
+				"armeabi-v7a",
+				"arm64-v8a"
+            ],
+            "minSdkVersion": "21",
+            "useAndroidX": false
+        }
+    }
+}
